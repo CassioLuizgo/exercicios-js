@@ -9,13 +9,13 @@ Maior que 60 == Idoso
 let idade = Number(prompt("Qual é a sua idade ? Digite-a :"))
 
 if (idade <=12) {
-    alert(`Você só tem ${idade} anos ? Sabe da nada ainda, criança.`)
+    alert(`Idade ${idade} anos, você é criança.`)
 } else if (idade >=13 && idade <=17) {
-    alert(`${idade} anos ? Essa é a idade da merda,cuidado !`)
+    alert(`${idade} anos, você é adolescente !`)
 } else if (idade >=18 && idade <=59) {
-    alert(`Você tem ${idade} anos, já é um adulto.`)
+    alert(`Você tem ${idade} anos, adulto`)
 } else {
-    alert(`${idade} aninhos ? O senhor(a) já viveu muita coisa, aproveite sua aposentadoria e descanse.`)
+    alert(`${idade} anos, Idoso.`)
 };
 
 
